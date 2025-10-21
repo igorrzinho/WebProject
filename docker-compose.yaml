@@ -1,0 +1,8 @@
+services:
+  sales-web:
+    container_name: sales-web
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 5205:5205
